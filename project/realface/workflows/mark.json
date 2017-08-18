@@ -67,15 +67,15 @@
       "instruction":"Select a label and draw rectangle around any corresponding entries on the document.",
       "tool_config": {
         "tools": [
-          {"type": "rectangleTool", "label": "Regimental No.", "color": "#373ACC", "generates_subject_type": "sa_regimental_no", "help": {"title":"Regimental No.", "body": "Look for a number with the following formats: 'xx/yyyy' or 'yyyyy'"}},
-          {"type": "rectangleTool", "label": "Company", "color": "#373ACC", "generates_subject_type": "sa_company" },
-          {"type": "rectangleTool", "label": "Horse", "color": "#373ACC", "generates_subject_type": "sa_horse" },
-          {"type": "rectangleTool", "label": "Name", "color": "#373ACC", "generates_subject_type": "sa_name", "help": {"title":"Name", "body": "Given and surname of soldier. Transcribe as written. First Last order will vary."} },
-          {"type": "rectangleTool", "label": "Corps", "color": "#373ACC", "generates_subject_type": "sa_corps" },
-          {"type": "rectangleTool", "label": "Rank and length of service", "color": "#373ACC", "generates_subject_type": "sa_rank_length" },
-          {"type": "rectangleTool", "label": "Address", "color": "#373ACC", "generates_subject_type": "sa_address" },
-          {"type": "rectangleTool", "label": "Trade or calling", "color": "#373ACC", "generates_subject_type": "sa_trade", "help": {"title":"Trade or Calling", "body": "Description of job. May include two jobs. Maintain order from form."} },
-          {"type": "rectangleTool", "label": "Name and address of employer", "color": "#373ACC", "generates_subject_type": "sa_employer" }
+          {"type": "rectangleTool", "label": "Regimental No.", "color": "#526852", "generates_subject_type": "sa_regimental_no", "help": {"title":"Regimental No.", "body": "Look for a number with the following formats: 'xx/yyyy' or 'yyyyy'"}},
+          {"type": "rectangleTool", "label": "Company", "color": "#526852", "generates_subject_type": "sa_company" },
+          {"type": "rectangleTool", "label": "Horse", "color": "#526852", "generates_subject_type": "sa_horse" },
+          {"type": "rectangleTool", "label": "Name", "color": "#526852", "generates_subject_type": "sa_name", "help": {"title":"Name", "body": "Given and surname of soldier. Transcribe as written. First Last order will vary."} },
+          {"type": "rectangleTool", "label": "Corps", "color": "#526852", "generates_subject_type": "sa_corps" },
+          {"type": "rectangleTool", "label": "Rank and length of service", "color": "#526852", "generates_subject_type": "sa_rank_length" },
+          {"type": "rectangleTool", "label": "Address", "color": "#526852", "generates_subject_type": "sa_address" },
+          {"type": "rectangleTool", "label": "Trade or calling", "color": "#526852", "generates_subject_type": "sa_trade", "help": {"title":"Trade or Calling", "body": "Description of job. May include two jobs. Maintain order from form."} },
+          {"type": "rectangleTool", "label": "Name and address of employer", "color": "#526852", "generates_subject_type": "sa_employer" }
         ]
       }
     },
@@ -90,7 +90,7 @@
       "next_task":null,
       "tool_config":{
         "tools": [
-          {"type":"rectangleTool", "label": "Other", "color": "#373ACC", "generates_subject_type":"transcribe_other_data_field"}
+          {"type":"rectangleTool", "label": "Other", "color": "#526852", "generates_subject_type":"transcribe_other_data_field"}
         ]
       }
 
